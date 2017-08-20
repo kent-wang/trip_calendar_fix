@@ -13,7 +13,7 @@ if ($_GET[feed]):
 	echo '
 	Use this new feed URL in your calendar program such as Google Calendar:<br /><br />
 
-	http://'.$_SERVER['SERVER_NAME'].'/ics.php?timezone=' . urlencode($_GET[timezone]) . '&feed=' . urlencode($feed) . '<br /><br />
+	https://'.$_SERVER['SERVER_NAME'].'/ics.php?timezone=' . urlencode($_GET[timezone]) . '&feed=' . urlencode($feed) . '<br /><br />
 	
 	Did it work? Kindly have a look at my <a href="http://www.kentwang.com">menswear store</a><br />
 	Problems? Email <a href="mailto:kwang@kwang.org">kwang@kwang.org</a>.<br />
