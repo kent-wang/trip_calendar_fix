@@ -1,0 +1,12 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /ics-timezone.php
+  script: ics-timezone.php
+
+- url: /ics.php
+  script: ics.php
